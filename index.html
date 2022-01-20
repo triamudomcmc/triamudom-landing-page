@@ -301,16 +301,16 @@
           "ArrowRight",
           "ArrowLeft",
           "ArrowRight",
-          "b",
-          "a",
+          "KeyB",
+          "KeyA",
         ];
         let current = 0;
 
         const keyHandler = function (event) {
           // If the key isn't in the pattern, or isn't the current key in the pattern, reset
           if (
-            pattern.indexOf(event.key) < 0 ||
-            event.key !== pattern[current]
+            pattern.indexOf(event.code) < 0 ||
+            event.code !== pattern[current]
           ) {
             current = 0;
             return;
