@@ -2,21 +2,14 @@
 <html lang="th">
   <head>
     <meta charset="UTF-8" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <style>
-      body {
-        font-family: "Noto Sans Thai", "Noto Sans", sans-serif;
-      }
-    </style>
-    <link
-      rel="preconnect"
-      href="https://fonts.gstatic.com"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      data-href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300;400;500;600;700&family=Noto+Sans:wght@400;700&display=swap"
-    />
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({
+        google: {
+          families: ['Noto Sans', 'Noto Sans Thai', 'Inter']
+        }
+      });
+    </script>
     <link rel="icon" href="/assets/favicon.ico" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -29,32 +22,15 @@
       name="keywords"
       content="สมัครสอบ,รับสมัคร,สอบ,โรงเรียน,เตรียมอุดม,เตรียมอุดมศึกษา,พญาไท,ปทุมวัน,กรุงเทพมหานคร,หนังสือคู่มือ,ระเบียบการ,สอบเข้าเตรียม,tu85,Triam,Triam Udom,ตอ85,ตอ82,2565,ปีการศึกษา 25654,สอบเข้า ม.4,สอบเตรียมอุดม,กำหนดการสอบ,ประกาศรับสมัคร,triamudomfacts,triamudom,suksa,admission,สายการเรียน,แผนก,วิทย์คณิต,ศิลป์,ภาษา,เกาหลี,ฝรั่งเศส,เยอรมัน,ญี่ปุ่น,สเปน,จีน,รัสเซีย,สอบคัดเลือก,โควตา,ความสามารถพิเศษ,โอลิมปิก,วิชาการ,สอวน,สสวท"
     />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          fontFamily: {
-            display: [
-              "Noto Sans Thai",
-              "Noto Sans",
-              "Inter var",
-              "SF Pro Display",
-              "Sukhumvit Set",
-              "Kanit",
-              "sans-serif",
-            ],
-          },
-        },
-      };
-    </script>
+    <link href="./index.css" rel="stylesheet">
   </head>
   <body>
-    <main class="font-display bg-[#F9F9F9] min-h-screen">
+    <main class="font-display bg-[#F9F9F9]">
       <div
-        class="flex flex-col items-center justify-center bg-[#F9F9F9] mix-blend-pass-through w-full h-screen sm:h-[650px]"
+        class="flex flex-col items-center justify-center bg-[#F9F9F9] mix-blend-pass-through w-full h-screen"
       >
         <header
-          class="py-6 flex flex-col items-center justify-center space-y-8 mix-blend-pass-through h-full w-full"
+          class="py-6 flex flex-col items-center justify-center space-y-8 mix-blend-pass-through w-full min-h-screen"
           style="
             background: linear-gradient(
               180deg,
@@ -68,32 +44,36 @@
           <div class="flex flex-col text-center items-center justify-center">
             <img
               alt=""
-              src="/assets/top.png"
+              src="/assets/pattern.png"
               class="mix-blend-soft-light absolute top-0 opacity-50 h-[250px] w-full object-cover"
             />
             <img
               alt="พระเกี้ยว"
               src="/assets/พระเกี้ยว.svg"
-              class="h-[80px] w-[49px] pb-4"
+              class="h-[160px] w-[100px] pb-4"
             />
-            <h1
+            <div class="py-4">
+              <h1
               id="title"
-              class="text-2xl font-bold text-gray-700 leading-none"
+              class="text-2xl font-bold text-gray-700 leading-loose md:text-5xl"
             >
               โรงเรียนเตรียมอุดมศึกษา
             </h1>
-            <h2 class="font-light text-gray-700">Triam Udom Suksa School</h2>
+            <h2 class="font-light text-gray-600 text-lg md:text-3xl mt-2">Triam Udom Suksa School</h2>
+            </div>
             <img
               alt=""
-              src="/assets/bottom.png"
+              src="/assets/pattern.png"
               class="mix-blend-soft-light absolute bottom-0 opacity-50 h-[250px] w-full object-cover"
             />
           </div>
-          <img
+          <div class="h-1/5 md:h-2/5">
+            <img
             src="/assets/testo.jpg"
-            class="w-[90vw] sm:w-[350px] object-cover"
-            src="image"
+            class="object-cover h-full"
           />
+          </div>
+        
           <nav class="flex flex-col relative z-1 text-center space-y-4">
             <a
               href="/website"
@@ -104,15 +84,15 @@
                   #fa78ab 97.02%
                 );
               "
-              class="w-[90vw] sm:w-[300px] transition-opacity hover:opacity-80 text-white rounded-full py-4 px-6"
+              class="w-[80vw] md:w-[400px] transition-opacity hover:opacity-80 text-white rounded-full py-4 px-6"
               >เข้าสู่เว็บไซต์โรงเรียน</a
             >
             <a
               href="https://openhouse.triamudom.ac.th/admission"
               target="_blank"
               rel="noreferrer"
-              class="text-[#F687B3] bg-white transition-colors hover:text-[#fa78ab] rounded-full w-[90vw] sm:w-[300px] py-4 px-6"
-              >ดูข้อมูลการสอบเข้า</a
+              class="text-[#F687B3] bg-white transition-colors hover:text-[#fa78ab] rounded-full w-[80vw] md:w-[400px] py-4 px-6"
+              >ดูข้อมูลการสอบเข้า ม.4</a
             >
           </nav>
         </header>
