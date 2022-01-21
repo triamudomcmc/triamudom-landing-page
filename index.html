@@ -21,6 +21,12 @@
   <body>
     <main class="font-display bg-[#F9F9F9]">
       <div class="flex flex-col items-center justify-center bg-[#F9F9F9] mix-blend-pass-through w-full h-screen">
+        <picture class="mix-blend-soft-light absolute top-0 opacity-60 h-[250px] w-full object-cover">
+          <source type="image/avif" srcset="/assets/pattern.png?as=avif">
+          <source type="image/webp" srcset="/assets/pattern.png?as=webp">
+          <source type="image/png" srcset="/assets/pattern.png">
+          <img alt="" src="/assets/pattern.png" class="mix-blend-soft-light absolute top-0 opacity-60 h-[250px] w-full object-cover">
+        </picture>
         <header class="py-6 flex flex-col items-center justify-center space-y-8 mix-blend-pass-through w-full min-h-screen" style="
             background: linear-gradient(
               180deg,
@@ -31,13 +37,11 @@
             );
           ">
           <div class="flex flex-col text-center items-center justify-center">
-            <img alt="" src="/assets/pattern.png" class="mix-blend-soft-light absolute top-0 opacity-50 h-[250px] w-full object-cover" />
             <img alt="พระเกี้ยว" src="/assets/พระเกี้ยว.svg" class="h-[160px] w-[100px] pb-4" />
             <div class="py-4">
               <h1 id="title" class="text-2xl font-bold text-gray-700 leading-loose md:text-5xl"> โรงเรียนเตรียมอุดมศึกษา </h1>
               <h2 class="font-light text-gray-600 text-lg md:text-3xl mt-2">Triam Udom Suksa School</h2>
             </div>
-            <img alt="" src="/assets/pattern.png" class="mix-blend-soft-light absolute bottom-0 opacity-50 h-[250px] w-full object-cover" />
           </div>
           <div class="h-1/5 md:h-2/5">
             <picture class="object-cover h-full">
@@ -58,6 +62,12 @@
             <a href="https://openhouse.triamudom.ac.th/admission" target="_blank" rel="noreferrer" class="text-[#F687B3] bg-white transition-colors hover:text-[#fa78ab] rounded-full w-[80vw] md:w-[400px] py-4 px-6">ดูข้อมูลการสอบเข้า ม.4</a>
           </nav>
         </header>
+        <picture class="mix-blend-soft-light absolute bottom-0 opacity-60 h-[250px] w-full object-cover">
+          <source type="image/avif" srcset="/assets/pattern.png?as=avif">
+          <source type="image/webp" srcset="/assets/pattern.png?as=webp">
+          <source type="image/png" srcset="/assets/pattern.png">
+          <img alt="" src="/assets/pattern.png" class="mix-blend-soft-light absolute bottom-0 opacity-60 h-[250px] w-full object-cover">
+        </picture>
       </div>
       <article class="flex flex-col w-full pt-6 pb-12 sm:pt-12 sm:pb-16 justify-start items-center">
         <h2 class="text-xl py-8 font-semibold text-[#718096]"> ข่าวสารและกิจกรรม </h2>
