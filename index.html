@@ -19,22 +19,10 @@
   <body>
     <main class="font-display bg-[#F9F9F9]">
       <div
-        class="flex flex-col items-center justify-center bg-[#F9F9F9] mix-blend-pass-through w-full h-screen"
+        class="bg-[#F9F9F9] mix-blend-pass-through w-full h-screen sm:h-[790px]"
       >
-        <picture
-          class="mix-blend-soft-light absolute top-0 opacity-60 h-[250px] w-full object-cover"
-        >
-          <source type="image/avif" srcset="/assets/pattern.png?as=avif" />
-          <source type="image/webp" srcset="/assets/pattern.png?as=webp" />
-          <source type="image/png" srcset="/assets/pattern.png" />
-          <img
-            alt=""
-            src="/assets/pattern.png"
-            class="mix-blend-soft-light absolute top-0 opacity-60 h-[250px] w-full object-cover"
-          />
-        </picture>
-        <header
-          class="flex flex-col items-center justify-center w-full min-h-screen py-6 space-y-8 mix-blend-pass-through"
+        <div
+          class="flex flex-col items-center justify-center relative h-full w-full mix-blend-pass-through"
           style="
             background: linear-gradient(
               180deg,
@@ -45,76 +33,96 @@
             );
           "
         >
-          <div class="flex flex-col items-center justify-center text-center">
+          <picture
+            class="mix-blend-soft-light absolute top-0 opacity-60 h-[250px] w-full object-cover"
+          >
+            <source type="image/avif" srcset="/assets/pattern.png?as=avif" />
+            <source type="image/webp" srcset="/assets/pattern.png?as=webp" />
+            <source type="image/png" srcset="/assets/pattern.png" />
             <img
-              alt="พระเกี้ยว"
-              src="/assets/พระเกี้ยว.svg"
-              class="h-[160px] w-[100px] pb-4"
+              alt=""
+              src="/assets/pattern.png"
+              class="mix-blend-soft-light absolute top-0 opacity-60 h-[250px] w-full object-cover"
             />
-            <div class="py-4">
-              <h1
-                id="title"
-                class="text-2xl font-bold leading-loose text-gray-700 md:text-5xl"
-              >
-                โรงเรียนเตรียมอุดมศึกษา
-              </h1>
-              <h2 class="mt-2 text-lg font-light text-gray-600 md:text-3xl">
-                Triam Udom Suksa School
-              </h2>
-            </div>
-          </div>
-          <div class="h-1/5 md:h-2/5">
-            <picture class="object-cover h-full">
-              <source
-                type="image/avif"
-                srcset="/assets/admission.png?as=avif"
-              />
-              <source
-                type="image/webp"
-                srcset="/assets/admission.png?as=webp"
-              />
-              <source type="image/png" srcset="/assets/admission.png" />
+          </picture>
+          <header
+            class="flex flex-col items-center relative z-10 justify-center w-full min-h-screen py-6 space-y-8 mix-blend-pass-through"
+          >
+            <div class="flex flex-col items-center justify-center text-center">
               <img
-                alt=""
-                src="/assets/admission.png"
-                class="object-cover h-full"
+                alt="พระเกี้ยว"
+                src="/assets/พระเกี้ยว.svg"
+                class="h-[120px] w-[80px] pb-4"
               />
-            </picture>
-          </div>
-          <nav class="relative flex flex-col space-y-4 text-center z-1">
-            <a
-              href="/website"
-              style="
-                background: linear-gradient(
-                  88.5deg,
-                  #ffb4d2 1.91%,
-                  #fa78ab 97.02%
-                );
-              "
-              class="w-[80vw] md:w-[400px] transition-opacity hover:opacity-80 text-white rounded-full py-4 px-6"
-              >เข้าสู่เว็บไซต์โรงเรียน</a
+              <div class="py-4">
+                <h1
+                  id="title"
+                  class="text-2xl font-bold leading-none text-gray-700 lg:text-3xl 2xl:text-5xl"
+                >
+                  โรงเรียนเตรียมอุดมศึกษา
+                </h1>
+                <h2
+                  class="mt-2 text-lg font-light text-gray-600 lg:text-xl 2xl:text-3xl"
+                >
+                  Triam Udom Suksa School
+                </h2>
+              </div>
+            </div>
+            <div class="h-1/5 md:h-2/5">
+              <picture class="object-cover h-full">
+                <source
+                  type="image/avif"
+                  srcset="/assets/admission.png?as=avif"
+                />
+                <source
+                  type="image/webp"
+                  srcset="/assets/admission.png?as=webp"
+                />
+                <source type="image/png" srcset="/assets/admission.png" />
+                <img
+                  alt="รับสมัครนักเรียนเข้าศึกษาชั้นมัธยมศึกษาปีที่ 4"
+                  src="/assets/admission.png"
+                  class="object-cover h-full"
+                />
+              </picture>
+            </div>
+            <nav
+              class="relative w-[80vw] md:w-[400px] flex flex-col space-y-4 text-center z-20"
             >
-            <a
-              href="https://openhouse.triamudom.ac.th/admission"
-              target="_blank"
-              rel="noreferrer"
-              class="text-[#F687B3] bg-white transition-colors hover:text-[#fa78ab] rounded-full w-[80vw] md:w-[400px] py-4 px-6"
-              >ดูข้อมูลการสอบเข้า ม.4</a
-            >
-          </nav>
-        </header>
-        <picture
-          class="mix-blend-soft-light absolute bottom-0 opacity-60 h-[250px] w-full object-cover"
-        >
-          <source type="image/avif" srcset="/assets/pattern.png?as=avif" />
-          <source type="image/webp" srcset="/assets/pattern.png?as=webp" />
-          <source type="image/png" srcset="/assets/pattern.png" />
-          <img
-            alt=""
-            src="/assets/pattern.png"
+              <a
+                href="/website"
+                style="
+                  background: linear-gradient(
+                    88.5deg,
+                    #ffb4d2 1.91%,
+                    #fa78ab 97.02%
+                  );
+                "
+                class="w-full transition-opacity hover:opacity-80 text-white rounded-full py-4 px-6"
+                >เข้าสู่เว็บไซต์โรงเรียน</a
+              >
+              <a
+                href="https://openhouse.triamudom.ac.th/admission"
+                target="_blank"
+                rel="noreferrer"
+                class="w-full text-[#F687B3] bg-white transition-colors hover:text-[#fa78ab] rounded-full py-4 px-6"
+                >ดูข้อมูลการสอบเข้า ม.4</a
+              >
+            </nav>
+          </header>
+          <picture
             class="mix-blend-soft-light absolute bottom-0 opacity-60 h-[250px] w-full object-cover"
-          />
-        </picture>
+          >
+            <source type="image/avif" srcset="/assets/pattern.png?as=avif" />
+            <source type="image/webp" srcset="/assets/pattern.png?as=webp" />
+            <source type="image/png" srcset="/assets/pattern.png" />
+            <img
+              alt=""
+              src="/assets/pattern.png"
+              class="mix-blend-soft-light absolute bottom-0 opacity-60 h-[250px] w-full object-cover"
+            />
+          </picture>
+        </div>
       </div>
       <article
         class="flex flex-col items-center justify-start w-full pt-6 pb-12 sm:pt-12 sm:pb-16"
@@ -138,7 +146,7 @@
               <img
                 alt=""
                 src="/assets/img1.jpg"
-                class="object-cover transition-opacity group-hover:opacity-75"
+                class="object-cover w-full transition-opacity group-hover:opacity-75"
               />
             </picture>
             <div class="flex items-center justify-center h-full px-6 py-4">
@@ -163,7 +171,7 @@
               <img
                 alt=""
                 src="/assets/img2.jpg"
-                class="object-cover transition-opacity group-hover:opacity-75"
+                class="object-cover w-full transition-opacity group-hover:opacity-75"
               />
             </picture>
             <div class="flex items-center justify-center h-full px-6 py-4">
@@ -300,7 +308,7 @@
       </div>
     </div>
     <script>
-      ;(function () {
+      (function () {
         const pattern = [
           "ArrowUp",
           "ArrowUp",
@@ -312,28 +320,28 @@
           "ArrowRight",
           "KeyB",
           "KeyA",
-        ]
-        let current = 0
+        ];
+        let current = 0;
         const keyHandler = function (event) {
           // If the key isn't in the pattern, or isn't the current key in the pattern, reset
           if (
             pattern.indexOf(event.code) < 0 ||
             event.code !== pattern[current]
           ) {
-            current = 0
-            return
+            current = 0;
+            return;
           }
           // Update how much of the pattern is complete
-          current++
+          current++;
           // If complete, alert and reset
           if (pattern.length === current) {
-            current = 0
-            alert("You found the easter egg!")
-            document.getElementById("easteregg").style.display = "grid"
+            current = 0;
+            alert("You found the easter egg!");
+            document.getElementById("easteregg").style.display = "grid";
           }
-        }
-        document.addEventListener("keydown", keyHandler, false)
-      })()
+        };
+        document.addEventListener("keydown", keyHandler, false);
+      })();
     </script>
   </body>
 </html>
