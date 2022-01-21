@@ -19,7 +19,7 @@
   <body>
     <main class="font-display bg-[#F9F9F9]">
       <div
-        class="relative flex flex-col items-center justify-center bg-title-screen w-full min-h-screen py-16 sm:py-32"
+        class="relative flex flex-col items-center justify-center bg-title-screen w-full min-h-screen"
       >
         <picture
           class="mix-blend-soft-light absolute inset-x-0 top-0 opacity-50 h-[250px] w-full object-cover"
@@ -27,11 +27,7 @@
           <source type="image/avif" srcset="/assets/pattern.png?as=avif" />
           <source type="image/webp" srcset="/assets/pattern.png?as=webp" />
           <source type="image/png" srcset="/assets/pattern.png" />
-          <img
-            alt=""
-            src="/assets/pattern.png"
-            class="mix-blend-soft-light absolute inset-x-0 top-0 opacity-50 h-[250px] w-full object-cover"
-          />
+          <img alt="" src="/assets/pattern.png" />
         </picture>
         <header
           class="flex flex-col relative z-10 items-center justify-center w-full min-h-screen py-6 space-y-8"
@@ -40,22 +36,26 @@
             <img
               alt="พระเกี้ยว"
               src="/assets/พระเกี้ยว.svg"
-              class="h-[160px] w-[100px] pb-4"
+              class="h-[90px] 2xl:h-[120px] w-[50px] 2xl:w-[70px] pb-4"
             />
-            <div class="py-4">
+            <div class="">
               <h1
                 id="title"
-                class="text-2xl font-bold leading-loose text-gray-700 sm:text-5xl"
+                class="text-2xl font-bold leading-4 text-gray-700 sm:text-3xl 2xl:text-4xl"
               >
                 โรงเรียนเตรียมอุดมศึกษา
               </h1>
-              <h2 class="mt-2 text-lg font-light text-gray-600 sm:text-3xl">
+              <h2
+                class="mt-2 text-lg font-light text-gray-600 sm:text-xl 2xl:text-2xl"
+              >
                 Triam Udom Suksa School
               </h2>
             </div>
           </div>
-          <div class="max-w-[465px] sm:max-w-[680px] px-6 sm:px-10 relative">
-            <picture class="object-cover h-full">
+          <div
+            class="w-[90vw] sm:w-[440px] xl:w-[580px] 2xl:w-[640px] px-6 sm:px-10 relative"
+          >
+            <picture>
               <source
                 type="image/avif"
                 srcset="/assets/admission.png?as=avif"
@@ -65,20 +65,26 @@
                 srcset="/assets/admission.png?as=webp"
               />
               <source type="image/png" srcset="/assets/admission.png" />
-              <img alt="" src="/assets/admission.png" class="object-cover" />
+              <img
+                alt=""
+                src="/assets/admission.png"
+                class="object-cover w-full"
+              />
             </picture>
           </div>
-          <nav class="flex flex-col space-y-4 text-center z-1">
+          <nav
+            class="flex flex-col w-[80vw] sm:w-[290px] 2xl:w-[440px] text-sm sm:text-base space-y-4 text-center z-1"
+          >
             <a
               href="/website"
-              class="bg-main-btn w-[80vw] md:w-[400px] transition-opacity hover:opacity-80 text-white rounded-full py-4 px-6"
+              class="bg-main-btn w-full transition-opacity hover:opacity-80 text-white rounded-full py-4 px-6"
               >เข้าสู่เว็บไซต์โรงเรียน</a
             >
             <a
               href="https://openhouse.triamudom.ac.th/admission"
               target="_blank"
               rel="noreferrer"
-              class="text-[#F687B3] bg-white transition-colors hover:text-[#fa78ab] rounded-full w-[80vw] md:w-[400px] py-4 px-6"
+              class="text-[#F687B3] w-full bg-white transition-colors hover:text-[#fa78ab] rounded-full py-4 px-6"
               >ดูข้อมูลการสอบเข้า ม.4</a
             >
           </nav>
@@ -89,11 +95,7 @@
           <source type="image/avif" srcset="/assets/pattern.png?as=avif" />
           <source type="image/webp" srcset="/assets/pattern.png?as=webp" />
           <source type="image/png" srcset="/assets/pattern.png" />
-          <img
-            alt=""
-            src="/assets/pattern.png"
-            class="mix-blend-soft-light absolute inset-x-0 bottom-0 opacity-50 h-[250px] w-full object-cover"
-          />
+          <img alt="" src="/assets/pattern.png" />
         </picture>
       </div>
       <article
