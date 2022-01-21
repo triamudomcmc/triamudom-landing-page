@@ -19,6 +19,13 @@
   .bg-footer {
     background: linear-gradient(90.32deg, #0d0d0d 0%, #2c384f 100%);
   }
+
+  .text-gradient {
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background: linear-gradient(180deg, #b2bdd6 0%, #626d86 100%);
+  }
 }
 
 /* noto-sans-thai-300 - thai */
