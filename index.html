@@ -19,7 +19,7 @@
   <body>
     <main class="font-display bg-[#F9F9F9]">
       <div
-        class="relative flex flex-col items-center justify-center bg-[#F9F9F9] mix-blend-pass-through w-full h-screen py-32"
+        class="relative flex flex-col items-center justify-center bg-[#F9F9F9] mix-blend-pass-through w-full"
         style="
           background: linear-gradient(
             180deg,
@@ -43,7 +43,7 @@
           />
         </picture>
         <header
-          class="flex flex-col relative z-10 items-center justify-center w-full min-h-screen py-6 space-y-8 mix-blend-pass-through"
+          class="relative z-10 flex flex-col items-center justify-center w-full h-screen py-6 space-y-8 mix-blend-pass-through"
         >
           <div class="flex flex-col items-center justify-center text-center">
             <img
@@ -300,7 +300,7 @@
       </div>
     </div>
     <script>
-      (function () {
+      ;(function () {
         const pattern = [
           "ArrowUp",
           "ArrowUp",
@@ -312,28 +312,28 @@
           "ArrowRight",
           "KeyB",
           "KeyA",
-        ];
-        let current = 0;
+        ]
+        let current = 0
         const keyHandler = function (event) {
           // If the key isn't in the pattern, or isn't the current key in the pattern, reset
           if (
             pattern.indexOf(event.code) < 0 ||
             event.code !== pattern[current]
           ) {
-            current = 0;
-            return;
+            current = 0
+            return
           }
           // Update how much of the pattern is complete
-          current++;
+          current++
           // If complete, alert and reset
           if (pattern.length === current) {
-            current = 0;
-            alert("You found the easter egg!");
-            document.getElementById("easteregg").style.display = "grid";
+            current = 0
+            alert("You found the easter egg!")
+            document.getElementById("easteregg").style.display = "grid"
           }
-        };
-        document.addEventListener("keydown", keyHandler, false);
-      })();
+        }
+        document.addEventListener("keydown", keyHandler, false)
+      })()
     </script>
   </body>
 </html>
