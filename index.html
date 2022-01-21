@@ -19,7 +19,7 @@
   <body>
     <main class="font-display bg-[#F9F9F9]">
       <div
-        class="relative flex flex-col items-center justify-center bg-title-screen w-full h-screen py-32"
+        class="relative flex flex-col items-center justify-center bg-title-screen w-full min-h-screen py-16 sm:py-32"
       >
         <picture
           class="mix-blend-soft-light absolute inset-x-0 top-0 opacity-50 h-[250px] w-full object-cover"
@@ -34,7 +34,7 @@
           />
         </picture>
         <header
-          class="flex flex-col relative z-10 items-center justify-center w-full min-h-screen py-6 space-y-8 mix-blend-pass-through"
+          class="flex flex-col relative z-10 items-center justify-center w-full min-h-screen py-6 space-y-8"
         >
           <div class="flex flex-col items-center justify-center text-center">
             <img
@@ -45,16 +45,16 @@
             <div class="py-4">
               <h1
                 id="title"
-                class="text-2xl font-bold leading-loose text-gray-700 md:text-5xl"
+                class="text-2xl font-bold leading-loose text-gray-700 sm:text-5xl"
               >
                 โรงเรียนเตรียมอุดมศึกษา
               </h1>
-              <h2 class="mt-2 text-lg font-light text-gray-600 md:text-3xl">
+              <h2 class="mt-2 text-lg font-light text-gray-600 sm:text-3xl">
                 Triam Udom Suksa School
               </h2>
             </div>
           </div>
-          <div class="h-1/5 md:h-2/5">
+          <div class="px-10 max-h-[400px] md:h-[600px]">
             <picture class="object-cover h-full">
               <source
                 type="image/avif"
@@ -72,12 +72,10 @@
               />
             </picture>
           </div>
-          <nav
-            class="relative bg-main-btn flex flex-col space-y-4 text-center z-1"
-          >
+          <nav class="flex flex-col space-y-4 text-center z-1">
             <a
               href="/website"
-              class="w-[80vw] md:w-[400px] transition-opacity hover:opacity-80 text-white rounded-full py-4 px-6"
+              class="bg-main-btn w-[80vw] md:w-[400px] transition-opacity hover:opacity-80 text-white rounded-full py-4 px-6"
               >เข้าสู่เว็บไซต์โรงเรียน</a
             >
             <a
