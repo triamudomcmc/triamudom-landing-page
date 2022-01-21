@@ -19,16 +19,7 @@
   <body>
     <main class="font-display bg-[#F9F9F9]">
       <div
-        class="relative flex flex-col items-center justify-center bg-[#F9F9F9] mix-blend-pass-through w-full h-screen py-32"
-        style="
-          background: linear-gradient(
-            180deg,
-            rgba(246, 135, 179, 0.2) 0%,
-            rgba(255, 255, 255, 0) 23.4%,
-            rgba(255, 255, 255, 0) 74.81%,
-            rgba(246, 135, 179, 0.1) 100%
-          );
-        "
+        class="relative flex flex-col items-center justify-center bg-title-screen w-full h-screen py-32"
       >
         <picture
           class="mix-blend-soft-light absolute inset-x-0 top-0 opacity-50 h-[250px] w-full object-cover"
@@ -81,16 +72,11 @@
               />
             </picture>
           </div>
-          <nav class="relative flex flex-col space-y-4 text-center z-1">
+          <nav
+            class="relative bg-main-btn flex flex-col space-y-4 text-center z-1"
+          >
             <a
               href="/website"
-              style="
-                background: linear-gradient(
-                  88.5deg,
-                  #ffb4d2 1.91%,
-                  #fa78ab 97.02%
-                );
-              "
               class="w-[80vw] md:w-[400px] transition-opacity hover:opacity-80 text-white rounded-full py-4 px-6"
               >เข้าสู่เว็บไซต์โรงเรียน</a
             >
@@ -283,8 +269,7 @@
     </footer>
     <div
       id="easteregg"
-      style="background: linear-gradient(90.32deg, #0d0d0d 0%, #2c384f 100%)"
-      class="hidden py-4 px-4 sm:px-12 bg-[#3A404D] w-full text-white font-display space-y-4 sm:space-y-0 grid grid-cols-1 sm:grid-cols-2"
+      class="bg-footer hidden py-4 px-4 sm:px-12 bg-[#3A404D] w-full text-white font-display space-y-4 sm:space-y-0 grid-cols-1 sm:grid-cols-2"
     >
       <div class="text-center sm:text-left">
         <p class="font-regular">Designed by</p>
