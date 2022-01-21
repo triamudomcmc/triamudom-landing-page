@@ -1,3 +1,169 @@
 @tailwind base;
 @tailwind components;
+
+/* noto-sans-thai-300 - thai */
+@font-face {
+  font-family: "Noto Sans Thai";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("/assets/fonts/noto-sans-thai-v13-thai-300.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("/assets/fonts/noto-sans-thai-v13-thai-300.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("/assets/fonts/noto-sans-thai-v13-thai-300.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("/assets/fonts/noto-sans-thai-v13-thai-300.woff") format("woff"),
+    /* Modern Browsers */ url("/assets/fonts/noto-sans-thai-v13-thai-300.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("/assets/fonts/noto-sans-thai-v13-thai-300.svg#NotoSansThai")
+      format("svg"); /* Legacy iOS */
+}
+/* noto-sans-thai-regular - thai */
+@font-face {
+  font-family: "Noto Sans Thai";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/assets/fonts/noto-sans-thai-v13-thai-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("/assets/fonts/noto-sans-thai-v13-thai-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("/assets/fonts/noto-sans-thai-v13-thai-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("/assets/fonts/noto-sans-thai-v13-thai-regular.woff") format("woff"),
+    /* Modern Browsers */
+      url("/assets/fonts/noto-sans-thai-v13-thai-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("/assets/fonts/noto-sans-thai-v13-thai-regular.svg#NotoSansThai")
+      format("svg"); /* Legacy iOS */
+}
+/* noto-sans-thai-600 - thai */
+@font-face {
+  font-family: "Noto Sans Thai";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("/assets/fonts/noto-sans-thai-v13-thai-600.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("/assets/fonts/noto-sans-thai-v13-thai-600.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("/assets/fonts/noto-sans-thai-v13-thai-600.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("/assets/fonts/noto-sans-thai-v13-thai-600.woff") format("woff"),
+    /* Modern Browsers */ url("/assets/fonts/noto-sans-thai-v13-thai-600.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("/assets/fonts/noto-sans-thai-v13-thai-600.svg#NotoSansThai")
+      format("svg"); /* Legacy iOS */
+}
+/* noto-sans-thai-500 - thai */
+@font-face {
+  font-family: "Noto Sans Thai";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/assets/fonts/noto-sans-thai-v13-thai-500.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("/assets/fonts/noto-sans-thai-v13-thai-500.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("/assets/fonts/noto-sans-thai-v13-thai-500.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("/assets/fonts/noto-sans-thai-v13-thai-500.woff") format("woff"),
+    /* Modern Browsers */ url("/assets/fonts/noto-sans-thai-v13-thai-500.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("/assets/fonts/noto-sans-thai-v13-thai-500.svg#NotoSansThai")
+      format("svg"); /* Legacy iOS */
+}
+/* noto-sans-thai-700 - thai */
+@font-face {
+  font-family: "Noto Sans Thai";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/assets/fonts/noto-sans-thai-v13-thai-700.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("/assets/fonts/noto-sans-thai-v13-thai-700.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("/assets/fonts/noto-sans-thai-v13-thai-700.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("/assets/fonts/noto-sans-thai-v13-thai-700.woff") format("woff"),
+    /* Modern Browsers */ url("/assets/fonts/noto-sans-thai-v13-thai-700.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("/assets/fonts/noto-sans-thai-v13-thai-700.svg#NotoSansThai")
+      format("svg"); /* Legacy iOS */
+}
+
+/* noto-sans-regular - latin */
+@font-face {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/assets/fonts/noto-sans-v21-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("/assets/fonts/noto-sans-v21-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("/assets/fonts/noto-sans-v21-latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("/assets/fonts/noto-sans-v21-latin-regular.woff") format("woff"),
+    /* Modern Browsers */ url("/assets/fonts/noto-sans-v21-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("/assets/fonts/noto-sans-v21-latin-regular.svg#NotoSans")
+      format("svg"); /* Legacy iOS */
+}
+/* noto-sans-700 - latin */
+@font-face {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/assets/fonts/noto-sans-v21-latin-700.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("/assets/fonts/noto-sans-v21-latin-700.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("/assets/fonts/noto-sans-v21-latin-700.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("/assets/fonts/noto-sans-v21-latin-700.woff") format("woff"),
+    /* Modern Browsers */ url("/assets/fonts/noto-sans-v21-latin-700.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("/assets/fonts/noto-sans-v21-latin-700.svg#NotoSans") format("svg"); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: "Inter var";
+  font-weight: "100 900";
+  font-style: normal;
+  font-display: swap;
+  src: url("/assets/fonts/Inter-roman.var.woff2?3.13") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter var";
+  font-weight: "100 900";
+  font-style: italic;
+  font-display: swap;
+  src: url("/assets/fonts/Inter-italic.var.woff2?3.13") format("woff2");
+}
+
+@font-face {
+  font-family: "Sukhumvit Set";
+  font-display: swap;
+  src: local("Sukhumvit Set");
+  unicode-range: "U+0E01-0E5B, U+200C-200D, U+25CC";
+}
+
 @tailwind utilities;

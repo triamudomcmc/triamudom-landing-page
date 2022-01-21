@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<defs >
+<font id="NotoSansThai" horiz-adv-x="572" ><font-face
+    font-family="Noto Sans Thai Light"
+    units-per-em="1000"
+    panose-1="2 11 5 2 4 5 4 2 2 4"
+    ascent="1061"
+    descent="-450"
+    alphabetic="0" />
+<glyph unicode=" " horiz-adv-x="260" />
+<glyph unicode="-" horiz-adv-x="322" d="M40 244V296H282V244H40Z" />
+<glyph unicode="&#xa0;" horiz-adv-x="260" />
+</font>
+</defs>
+</svg>
