@@ -19,16 +19,7 @@
   <body>
     <main class="font-display bg-[#F9F9F9]">
       <div
-        class="relative flex flex-col items-center justify-center bg-[#F9F9F9] mix-blend-pass-through w-full"
-        style="
-          background: linear-gradient(
-            180deg,
-            rgba(246, 135, 179, 0.2) 0%,
-            rgba(255, 255, 255, 0) 23.4%,
-            rgba(255, 255, 255, 0) 74.81%,
-            rgba(246, 135, 179, 0.1) 100%
-          );
-        "
+        class="relative flex flex-col items-center justify-center w-full min-h-screen bg-title-screen"
       >
         <picture
           class="mix-blend-soft-light absolute inset-x-0 top-0 opacity-80 h-[250px] w-full object-cover"
@@ -36,59 +27,71 @@
           <source type="image/avif" srcset="/assets/pattern.png?as=avif" />
           <source type="image/webp" srcset="/assets/pattern.png?as=webp" />
           <source type="image/png" srcset="/assets/pattern.png" />
-          <img
-            alt=""
-            src="/assets/pattern.png"
-            class="mix-blend-soft-light absolute inset-x-0 top-0 opacity-80 h-[250px] w-full object-cover"
-          />
+          <img alt="" src="/assets/pattern.png" />
         </picture>
         <header
-          class="relative z-10 flex flex-col items-center justify-center w-full h-screen py-6 space-y-8 mix-blend-pass-through"
+          class="relative z-10 flex flex-col items-center justify-center w-full min-h-screen py-6 space-y-8"
         >
           <div class="flex flex-col items-center justify-center text-center">
             <img
               alt="พระเกี้ยว"
               src="/assets/พระเกี้ยว.svg"
-              class="h-[160px] w-[100px] pb-4"
+              class="h-[90px] 2xl:h-[120px] w-[50px] 2xl:w-[70px] pb-4"
             />
-            <div class="py-4">
+            <div class="">
               <h1
                 id="title"
-                class="text-2xl font-bold leading-loose text-gray-700 md:text-5xl"
+                class="text-2xl font-bold leading-4 text-gray-700 sm:text-3xl 2xl:text-4xl"
               >
                 โรงเรียนเตรียมอุดมศึกษา
               </h1>
-              <h2 class="mt-2 text-lg font-light text-gray-600 md:text-3xl">
+              <h2
+                class="mt-2 text-lg font-light text-gray-600 sm:text-xl 2xl:text-2xl"
+              >
                 Triam Udom Suksa School
               </h2>
             </div>
           </div>
-          <div class="h-1/5 md:h-2/5">
-            <picture class="object-cover h-full">
-              <source type="image/avif" srcset="/assets/img3.png?as=avif" />
-              <source type="image/webp" srcset="/assets/img3.png?as=webp" />
-              <source type="image/png" srcset="/assets/img3.png" />
-              <img alt="" src="/assets/img3.png" class="object-cover h-full" />
+          <div
+            class="w-[90vw] sm:w-[440px] xl:w-[580px] 2xl:w-[640px] px-6 sm:px-10 relative"
+          >
+            <picture>
+              <source
+                type="image/avif"
+                srcset="/assets/admission.png?as=avif"
+              />
+              <source
+                type="image/webp"
+                srcset="/assets/admission.png?as=webp"
+              />
+              <source type="image/png" srcset="/assets/admission.png" />
+              <img
+                alt=""
+                src="/assets/admission.png"
+                class="object-cover w-full"
+              />
             </picture>
           </div>
-          <nav class="relative flex flex-col space-y-4 text-center z-1">
+          <nav
+            class="flex flex-col w-[80vw] sm:w-[290px] 2xl:w-[440px] text-sm sm:text-base space-y-4 text-center z-1"
+          >
             <a
               href="/website"
-              style="
-                background: linear-gradient(
-                  88.5deg,
-                  #ffb4d2 1.91%,
-                  #fa78ab 97.02%
-                );
-              "
-              class="w-[80vw] md:w-[400px] transition-opacity hover:opacity-80 text-white rounded-full py-4 px-6"
+              class="w-full px-6 py-4 text-white transition-opacity rounded-full shadow-md bg-main-btn hover:opacity-80"
               >เข้าสู่เว็บไซต์โรงเรียน</a
             >
             <a
               href="https://openhouse.triamudom.ac.th/admission"
               target="_blank"
               rel="noreferrer"
-              class="text-[#F687B3] bg-white transition-colors hover:text-[#fa78ab] rounded-full w-[80vw] md:w-[400px] py-4 px-6"
+              class="text-[#F687B3] w-full bg-white transition-colors hover:text-[#e46698] shadow-md rounded-full py-4 px-6"
+              >รับสมัครนักเรียนเข้าศึกษาชั้นมัธยมศึกษาปีที่ 4</a
+            >
+            <a
+              href="https://openhouse.triamudom.ac.th/admission"
+              target="_blank"
+              rel="noreferrer"
+              class="text-[#F687B3] w-full bg-white transition-colors hover:text-[#e46698] shadow-md rounded-full py-4 px-6"
               >ดูข้อมูลการสอบเข้า ม.4</a
             >
           </nav>
@@ -99,15 +102,11 @@
           <source type="image/avif" srcset="/assets/pattern.png?as=avif" />
           <source type="image/webp" srcset="/assets/pattern.png?as=webp" />
           <source type="image/png" srcset="/assets/pattern.png" />
-          <img
-            alt=""
-            src="/assets/pattern.png"
-            class="mix-blend-soft-light absolute inset-x-0 bottom-0 opacity-70 h-[250px] w-full object-cover"
-          />
+          <img alt="" src="/assets/pattern.png" />
         </picture>
       </div>
       <article
-        class="flex flex-col items-center justify-start w-full pt-6 pb-12 sm:pt-12 sm:pb-16"
+        class="relative z-10 flex flex-col items-center justify-start w-full pt-6 pb-12 sm:pt-12 sm:pb-16"
       >
         <h2 class="text-xl py-8 font-semibold text-[#718096]">
           ข่าวสารและกิจกรรม
@@ -128,7 +127,7 @@
               <img
                 alt=""
                 src="/assets/img1.jpg"
-                class="object-cover transition-opacity group-hover:opacity-75"
+                class="object-cover w-full transition-opacity group-hover:opacity-75"
               />
             </picture>
             <div class="flex items-center justify-center h-full px-6 py-4">
@@ -153,7 +152,7 @@
               <img
                 alt=""
                 src="/assets/img2.jpg"
-                class="object-cover transition-opacity group-hover:opacity-75"
+                class="object-cover w-full transition-opacity group-hover:opacity-75"
               />
             </picture>
             <div class="flex items-center justify-center h-full px-6 py-4">
@@ -273,19 +272,18 @@
     </footer>
     <div
       id="easteregg"
-      style="background: linear-gradient(90.32deg, #0d0d0d 0%, #2c384f 100%)"
-      class="hidden py-4 px-4 sm:px-12 bg-[#3A404D] w-full text-white font-display space-y-4 sm:space-y-0 grid grid-cols-1 sm:grid-cols-2"
+      class="bg-footer hidden py-4 px-4 sm:px-12 bg-[#3A404D] w-full text-white font-display space-y-4 sm:space-y-0 grid-cols-1 sm:grid-cols-2"
     >
       <div class="text-center sm:text-left">
-        <p class="font-regular">Designed by</p>
-        <p class="text-sm font-semibold">Shawn Sirigomez</p>
+        <p class="text-gradient font-regular">Designed by</p>
+        <p class="text-sm font-semibold text-gradient">Shawn Sirigomez</p>
       </div>
       <div class="text-center sm:text-right">
-        <p class="font-regular">Developed by</p>
+        <p class="text-gradient font-regular">Developed by</p>
         <div class="flex justify-center space-x-4 sm:justify-end">
-          <p class="text-sm font-semibold">Peter Phongpak</p>
-          <p class="text-sm font-semibold">Mark Possawat</p>
-          <p class="text-sm font-semibold">Thee Panithi</p>
+          <p class="text-sm font-semibold text-gradient">Peter Phongpak</p>
+          <p class="text-sm font-semibold text-gradient">Mark Possawat</p>
+          <p class="text-sm font-semibold text-gradient">Thee Panithi</p>
         </div>
       </div>
     </div>
