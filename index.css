@@ -27,11 +27,8 @@
     background-image: linear-gradient(180deg, #b2bdd6 0%, #626d86 100%);
   }
 
-  .bg-pattern-up {
-    background-image: url("/assets/pattern.png");
-  }
-
-  .bg-pattern-down {
+  .bg-pattern {
+    background-image: image-set(url("/assets/pattern.png?as=webp"));
     background-image: url("/assets/pattern.png");
   }
 }
