@@ -34,28 +34,30 @@
           />
         </picture>
         <header
-          class="relative z-10 flex flex-col items-center justify-center w-full min-h-screen py-6 space-y-8"
+          class="relative z-10 flex flex-col items-center justify-center w-full min-h-screen py-6 space-y-4 2xl:space-y-8"
         >
           <div class="flex flex-col items-center justify-center text-center">
             <img
               alt="พระเกี้ยว"
               src="/assets/พระเกี้ยว.svg"
-              class="h-[160px] pb-4 w-[100px]"
+              class="pb-4 h-[90px] 2xl:h-[160px] w-[55px] 2xl:w-[100px]"
             />
             <div class="">
               <h1
                 id="title"
-                class="text-2xl font-bold leading-4 text-gray-700 md:text-5xl"
+                class="text-2xl font-bold leading-none text-gray-700 md:text-3xl 2xl:text-5xl"
               >
                 โรงเรียนเตรียมอุดมศึกษา
               </h1>
-              <h2 class="mt-2 text-lg font-light text-gray-600 md:text-3xl">
+              <h2
+                class="mt-2 text-lg font-light leading-none text-gray-600 md:text-xl 2xl:text-3xl"
+              >
                 Triam Udom Suksa School
               </h2>
             </div>
           </div>
           <div
-            class="w-[90vw] sm:w-[640px] xl:w-[768px] px-6 sm:px-10 relative"
+            class="w-[90vw] sm:w-[640px] 2xl:w-[768px] px-6 sm:px-10 relative"
           >
             <picture>
               <source
@@ -166,7 +168,7 @@
           </a>
           <div class="max-w-md px-2 py-2 bg-white shadow-lg rounded-2xl">
             <div
-              class="py-4 px-6 flex flex-col overflow-y-scroll h-[275px] xl:h-[300px]"
+              class="py-4 px-6 flex flex-col overflow-y-scroll h-[275px] 2xl:h-[300px]"
             >
               <a
                 href="/"
@@ -287,7 +289,7 @@
       </div>
     </div>
     <script>
-      ;(function () {
+      (function () {
         const pattern = [
           "ArrowUp",
           "ArrowUp",
@@ -299,28 +301,28 @@
           "ArrowRight",
           "KeyB",
           "KeyA",
-        ]
-        let current = 0
+        ];
+        let current = 0;
         const keyHandler = function (event) {
           // If the key isn't in the pattern, or isn't the current key in the pattern, reset
           if (
             pattern.indexOf(event.code) < 0 ||
             event.code !== pattern[current]
           ) {
-            current = 0
-            return
+            current = 0;
+            return;
           }
           // Update how much of the pattern is complete
-          current++
+          current++;
           // If complete, alert and reset
           if (pattern.length === current) {
-            current = 0
-            alert("You found the easter egg!")
-            document.getElementById("easteregg").style.display = "grid"
+            current = 0;
+            alert("You found the easter egg!");
+            document.getElementById("easteregg").style.display = "grid";
           }
-        }
-        document.addEventListener("keydown", keyHandler, false)
-      })()
+        };
+        document.addEventListener("keydown", keyHandler, false);
+      })();
     </script>
   </body>
 </html>
