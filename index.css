@@ -27,8 +27,12 @@
     background-image: linear-gradient(180deg, #b2bdd6 0%, #626d86 100%);
   }
 
-  .bg-pattern {
-    background-image: url("/assets/pattern.jpg");
+  .bg-pattern-up {
+    background-image: url("/assets/pt-up.jpg");
+  }
+
+  .bg-pattern-down {
+    background-image: url("/assets/pt-down.jpg");
   }
 }
 
