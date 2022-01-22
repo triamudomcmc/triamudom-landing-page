@@ -18,6 +18,7 @@
   </head>
   <body>
     <main class="font-display bg-[#F9F9F9]">
+      <!-- Title Screen -->
       <div
         class="relative flex flex-col items-center justify-center w-full min-h-screen bg-title-screen"
       >
@@ -59,7 +60,8 @@
           <div
             class="w-[90vw] sm:w-[640px] 2xl:w-[768px] px-6 sm:px-10 relative"
           >
-            <picture>
+            <!-- Main Image -->
+            <picture class="object-cover w-full">
               <source
                 type="image/avif"
                 srcset="/assets/admission.png?as=avif"
@@ -70,9 +72,8 @@
               />
               <source type="image/png" srcset="/assets/admission.png" />
               <img
-                alt=""
+                alt="รับสมัครนักเรียนเข้าศึกษาชั้นมัธยมศึกษาปีที่ 4"
                 src="/assets/admission.png"
-                class="object-cover w-full"
               />
             </picture>
           </div>
@@ -106,6 +107,8 @@
           />
         </picture>
       </div>
+
+      <!-- News -->
       <article
         class="relative z-10 flex flex-col items-center justify-start w-full pt-6 pb-12 sm:pt-12 sm:pb-16"
       >
@@ -115,10 +118,12 @@
         <div
           class="px-4 grid grid-cols-1 gap-y-8 sm:gap-8 sm:grid-cols-3 max-w-[1040px]"
         >
+          <!-- News 1 -->
           <a
             href="https://openhouse.triamudom.ac.th/"
             class="flex flex-col max-w-md bg-white shadow-lg rounded-2xl group"
           >
+            <!-- News 1 Image -->
             <picture
               class="object-cover transition-opacity group-hover:opacity-75"
             >
@@ -126,9 +131,8 @@
               <source type="image/webp" srcset="/assets/img1.jpg?as=webp" />
               <source type="image/jpg" srcset="/assets/img1.jpg" />
               <img
-                alt=""
+                alt="Triam Udom Online Open House 2022"
                 src="/assets/img1.jpg"
-                class="object-cover w-full transition-opacity group-hover:opacity-75"
               />
             </picture>
             <div class="flex items-center justify-center h-full px-6 py-4">
@@ -136,14 +140,17 @@
                 class="text-center font-medium text-base text-[#5F6F82] transition-colors group-hover:text-gray-700"
               >
                 “๘๔ ปี นิทรรศการวิชาการเตรียมอุดมศึกษา จักรวาลแห่งการเรียนรู้”
-                (Triam Udom Online Open House 2022 Interstellar Odyssey )
+                (Triam Udom Online Open House 2022 Interstellar Odyssey)
               </h3>
             </div>
           </a>
+
+          <!-- News 2 -->
           <a
             href="https://admission.triamudom.ac.th/TMS/Home.aspx"
             class="flex flex-col max-w-md bg-white shadow-lg rounded-2xl group"
           >
+            <!-- News 2 Image -->
             <picture
               class="object-cover transition-opacity group-hover:opacity-75"
             >
@@ -151,9 +158,8 @@
               <source type="image/webp" srcset="/assets/img2.jpg?as=webp" />
               <source type="image/jpg" srcset="/assets/img2.jpg" />
               <img
-                alt=""
+                alt="เข้าสู่ระบบรับสมัครนักเรียนเข้าศึกษาชั้นมัธยมศึกษาปีที่ 4"
                 src="/assets/img2.jpg"
-                class="object-cover w-full transition-opacity group-hover:opacity-75"
               />
             </picture>
             <div class="flex items-center justify-center h-full px-6 py-4">
@@ -166,10 +172,13 @@
               </h3>
             </div>
           </a>
+
+          <!-- ข่าวสารและกิจกรรม -->
           <div class="max-w-md px-2 py-2 bg-white shadow-lg rounded-2xl">
             <div
               class="py-4 px-6 flex flex-col overflow-y-scroll h-[275px] 2xl:h-[300px]"
             >
+              <!-- เพิ่มข่าวสารตรงนี้ -->
               <a
                 href="/"
                 class="group border-b-[0.5px] border-[#E2E2E2] pt-2 pb-4"
@@ -240,11 +249,14 @@
                   2565 ประเภทโควตาจังหวัด
                 </h3>
               </a>
+              <!-- จบข่าวสาร -->
             </div>
           </div>
         </div>
       </article>
     </main>
+
+    <!-- Footer -->
     <footer
       class="pt-12 pb-4 px-8 bg-[#3A404D] w-full text-white font-display flex flex-col space-y-4"
     >
@@ -271,6 +283,8 @@
       </div>
       <p class="mt-4 font-semibold text-center">All rights reserved.</p>
     </footer>
+
+    <!-- Easter Egg -->
     <div
       id="easteregg"
       class="bg-footer hidden py-4 px-4 sm:px-12 bg-[#3A404D] w-full text-white font-display space-y-4 sm:space-y-0 grid-cols-1 sm:grid-cols-2"
