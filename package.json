@@ -8,9 +8,29 @@
   "devDependencies": {
     "autoprefixer": "^10.4.2",
     "parcel": "^2.2.1",
+    "parcel-plugin-custom-dist-structure": "^1.1.18",
     "postcss": "^8.4.5",
     "rimraf": "^3.0.2",
     "sharp": "^0.29.1",
     "tailwindcss": "^3.0.15"
+  },
+  "customDistStructure": {
+    "config": {
+    "assets/js": [
+    ".js",
+    ".js.map"
+    ],
+    "assets/img": [
+    ".jpg",
+    ".png"
+    ],
+    "assets/css": [
+    ".css",
+    ".css.map"
+    ]
+    },
+    "options": {
+    "development": true
+    }
   }
 }
