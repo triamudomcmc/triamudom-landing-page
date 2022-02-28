@@ -1,3 +1,12 @@
 # Triam Udom Suksa School Landing Page
 
-made for p'chain
+## Designed by
+
+- Shawn Sirigomez
+
+## Developed by
+
+- P'Chain
+- Mark
+- Peter
+- Thee
