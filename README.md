@@ -2,11 +2,11 @@
 
 ## Designed by
 
-- Shawn Sirigomez
+- Shawn Sirigomez (TU82)
 
 ## Developed by
 
 - P'Chain
-- Mark
-- Peter
-- Thee
+- Mark (TU82)
+- Peter (TU82)
+- Thee (TU82)
