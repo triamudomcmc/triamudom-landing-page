@@ -7,6 +7,6 @@
 ## Developed by
 
 - P'Chain
-- Mark (TU82)
+- Mark (TU81)
 - Peter (TU82)
 - Thee (TU82)
