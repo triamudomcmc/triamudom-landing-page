@@ -2,7 +2,7 @@
 
 ## Designed by
 
-- Shawn Sirigomez (TU82)
+- Shawn (TU82)
 
 ## Developed by
 
